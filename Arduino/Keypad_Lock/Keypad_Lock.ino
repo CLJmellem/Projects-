@@ -3,6 +3,8 @@
 
    Guia de conexão:
     
+   Tinkercad project: https://www.tinkercad.com/things/9RrXxbXFMij
+    
    Arduino:
    LINHA 1 TECLADO: Pino Digital 9
    LINHA 2 TECLADO: Pino Digital 8
