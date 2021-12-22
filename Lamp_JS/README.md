@@ -3,6 +3,6 @@
 ***
 
 <h4>Using JavaScript, CSS, HTML5</h4>
-<p>Just download the files and use as you like</p>
+<p>Download the files and use as you like</p>
 
 
