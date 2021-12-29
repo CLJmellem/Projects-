@@ -1,0 +1,83 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --primary: #01d9ff;
+  --secondary: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.calculadora {
+  width: 450px;
+  height: 600px;
+  padding: 50px;
+
+  background-color: var(--primary);
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px #00000088; /*x y blur rgba*/
+}
+
+.display {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-align: right;
+
+  background-color: rgba(243, 243, 243, 0.904);
+  border-radius: 50px;
+  font-size: 36px;
+}
+
+button {
+  height: 65px;
+  width: 65px;
+
+  background-color: var(--secondary);
+  border-radius: 50%;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 5px #00000055;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.containerBotoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  justify-items: center;
+}
+
+.signature {
+  height: 80px;
+
+  font-size: 26px;
+  position: relative;
+  text-align: center;
+  bottom: -30px;
+}
+
+.historico{
+  height: 600px;
+  width: 200px;
+
+  font-size: 24px;
+  position: static;
+
+  text-align: right;
+}
