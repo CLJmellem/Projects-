@@ -1,0 +1,37 @@
+#container{
+  height: 95vh;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pokebola{
+  height: 400px;
+  border-radius: 100%;
+
+  cursor: pointer;
+}
+
+.pokemon{
+  box-shadow: 0px 4px 5px #00000022;
+  border-radius: 15%;
+  font-size: 18px;
+  background-color: rgba(157, 255, 255, 0.411);
+
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+body{
+  background-color: rgba(231, 231, 231, 0.596);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+}
+
